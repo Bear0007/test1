@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  outline-style: none;
+  -webkit-tap-highlight-color: transparent;
+  word-break: break-all;
+}
+html {
+  width: 100%;
+  font-size: 20px;
+  font-size: 10vw;
+  height: 100%;
+}
+body {
+  position: relative;
+  width: 10rem;
+  height: 100%;
+  min-height: 100%;
+  margin: 0 auto!important;
+  font-weight: 400;
+  background:#EDF2F5;
+}
+a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #333;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.center {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font_2496187/iconfont.eot');
+  src: url('../font_2496187/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../font_2496187/iconfont.woff2') format('woff2'),
+      url('../font_2496187/iconfont.woff') format('woff'),
+      url('../font_2496187/iconfont.ttf') format('truetype'),
+      url('../font_2496187/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+	<title>弗兰德</title>
+	<link rel="stylesheet" href="less/login.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+   <div class="box">
+       <div class="box_1">
+           <img src="img/background2.jpg" alt="">
+       <a href="grzx.html" class="iconfont">&#xe605;</a>
+        </div>
+       <div class="box_2">
+        <p class="p1">弗兰德备件共享平台</p>
+        <p>请输入产品序列号或者备件零件号进行查询</p>
+        <input type="text">
+        <button>查询</button>
+       </div>
+        <div class="box_3">
+       <div class="alert">
+        <a href="javascript:;" id="close" class="iconfont">&#xe608;</a>
+        <p>抱歉没有查到相关资料<br>请确认内容输入正确</p>
+       </div>
+     </div>
+   </div>
+   <script src="js/jquery.1.11.3.js"></script>
+   <script src="js/index.js"></script>
+    <script>
+        $('button').click(function(){
+            if($('input').val()==''){
+                $('.box_3').css('display','block');
+            }else{
+                $(location).attr("href","search.html");
+            }
+        });
+        $('#close').click(function(){
+            $('.box_3').css('display','none');
+        })
+    </script>
+</body>
+</html>

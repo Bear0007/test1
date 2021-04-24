@@ -1,0 +1,76 @@
+.box {
+  width: 20.7rem;
+}
+.box_1 {
+  position: relative;
+}
+.box_1 a {
+  font-size: 1.1rem;
+  color: #fff;
+  position: absolute;
+  top: 1rem;
+  left: 19rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  overflow: hidden;
+}
+.box_1 div {
+  width: 19.125rem;
+  height: 2.5rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0.8rem;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 2.5rem;
+  color: #217DC5;
+}
+.box_2 {
+  width: 20.7rem;
+  height: 20rem;
+  background-color: #fff;
+  padding: 0 0.8rem;
+}
+.box_2 li {
+  height: 2.475rem;
+  line-height: 2.475rem;
+  border-bottom: 0.025rem solid #ccc;
+  font-size: 0.75rem;
+  color: #919699;
+}
+.box_2 li p {
+  padding: 0 0.1rem;
+}
+.box_2 li p span {
+  float: right;
+  color: black;
+}
+.box_2 li p input {
+  line-height: 2.4rem;
+  float: right;
+  color: black;
+  border: none;
+  font-size: 0.75rem;
+  text-align: right;
+}
+.box_2 .error {
+  float: right;
+  color: red;
+  font-size: 0.65rem;
+  display: none;
+}
+.box_2 .xg {
+  margin-top: 1.25rem;
+  color: #fff;
+  text-align: center;
+  background-color: #217DC5;
+  display: block;
+}
+.box_2 .bc {
+  margin-top: 1.25rem;
+  color: #fff;
+  text-align: center;
+  background-color: #217DC5;
+  display: none;
+}

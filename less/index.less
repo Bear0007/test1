@@ -1,0 +1,164 @@
+.px(@name, @px) {
+	@{name}: @px/82.8rem;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	outline-style:none;
+	-webkit-tap-highlight-color: transparent;
+	word-break: break-all;
+}
+html{
+	width:100%;
+	height:100%;
+	font-size: 20px;
+    font-size: 10vw;
+	height: 100%;
+}
+body{
+	position: relative;
+	width: 10rem;
+	height:100%;
+	min-height: 100%;
+	margin: 0 auto!important;
+	font-weight: 400;
+	background:#EDF2F5;
+}
+a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: #333;
+}
+img{
+	display: block;
+	width: 100%;
+}
+.center{
+	position: absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	margin:auto;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font_2496187/iconfont.eot');
+    src: url('../font_2496187/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font_2496187/iconfont.woff2') format('woff2'),
+        url('../font_2496187/iconfont.woff') format('woff'),
+        url('../font_2496187/iconfont.ttf') format('truetype'),
+        url('../font_2496187/iconfont.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.box{
+	width: 20.7rem;
+	height: 35rem;
+	position: relative;
+	.bg{
+		width: 20.7rem;
+		height: 16.4rem;
+	}
+	.bg2{
+		background-color: #fff;
+		ul{
+			width: 19.25rem;
+			height: 21.4rem;
+			background-color: #fff;
+			.center;
+			li{
+				height: 2.25rem;
+				line-height: 2.25rem;
+				width: 15.9rem;
+				margin: .5rem auto ;
+				position: relative;	
+				i{
+					position: absolute;
+					left: .75rem;top: .75rem;
+					/* border: .75rem solid #888; */
+					border-radius: 50%;
+					background-color: #D0D0D0;
+					width: 1rem;
+					height: 1rem;
+					line-height: 1rem;
+					text-align: center;
+					color: #fff;
+					font-size: .5rem;
+					vertical-align: middle;
+				}
+				input{
+					height: 2.25rem;
+					width: 15.9rem;
+					vertical-align: middle;
+					border: 1px solid #000;
+					box-sizing: border-box;
+					margin: 0 auto;
+					padding-left: 2.25rem;
+					font-size: .75rem;
+					vertical-align: middle;
+					line-height: 2.25rem;
+				}
+				input::-webkit-input-placeholder{
+					color:#d0d0d0;
+				}
+				span{
+					display: none;
+					font-size: .75rem;
+					line-height: 2.25rem;
+				   color:red;
+				   position: absolute;
+				   top: .1rem;right: .75rem;
+				   vertical-align: middle;	
+				}
+				
+			}
+			#submit{
+				padding: 0;
+				width: 15.9rem; 
+				text-align: center;
+				font-size: 1.1rem;
+				font-weight: normal;
+				background-color: #237EC4;
+				color: #fff;
+			}
+		}
+	}
+	.box_1{
+		width: 20.675rem;
+		height: 40rem;
+		background-color: rgba(0, 0, 0, .5);
+		position: absolute;
+		top: 0;
+		display: none;
+		z-index: 1;
+		.zccg{
+			background-color: #fff;
+			width: 15.45rem;
+			height: 9rem;
+			position:relative ;
+			margin: 10rem auto;
+			a{
+				position: absolute;
+				top: .5rem;left:14rem;
+				font-size: .75rem;
+				color:#237EC4;	
+			}
+			p{
+				font-size: 1.5rem;
+				text-align: center;
+				line-height: 9rem;
+			}
+		}
+	}
+}  
+
