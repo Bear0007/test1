@@ -10,6 +10,15 @@ $("input").blur(function(){
         // $(this).css('color','black');
     } 
 });
+function emailCheck() {
+    let reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
+    let email = $("#mail").val();
+    if(!reg.test(email) || email==''){
+        return false;
+    }else{
+        return true;
+    }
+}
 $("#submit").click(function(){
     if($("#name").val()==""){
         // check.preventDefault();
@@ -18,8 +27,8 @@ $("#submit").click(function(){
     }else if($("#name_id").val()==""){
       $("#name_id").next().css('display','block');
         return false;
-    }else if($("#mali").val()==""){
-        $("#mali").next().css('display','block');
+    }else if(!emailCheck()){
+        $("#mail").next().css('display','block');
           return false;
       }else if($("#firm").val()==""){
         $("#firm").next().css('display','block');

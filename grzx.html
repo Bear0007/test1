@@ -16,66 +16,67 @@
         </div>
     </div>
     <ul class="box_2">
+        <form action="">
         <li><p>姓名：<span>Jackson</span></p></li>
         <li><p>员工号：<span>13131322290</span></p></li>
         <li><p>公司：<span>bule-dot</span></p></li>
-        <li><p>邮箱：<input type="text" value="171744770@qq.com" id="mali"></p>
+        <li><p>邮箱：<input type="text" value="171744770@qq.com" id="mail"></p>
         </li>
         <span class="error">邮箱格式不正确</span>
         <li class="xg">修改</li>
-        <li class="bc">保存</li>
-        
+        <li class="bc"><input type="button" value="提交" id="submit"></li>
+    </form>  
     </ul>
 </div>
-   <script src="js/jquery.1.11.3.js"></script>
+   <script src="js/jquery.min.js"></script>
    <script src="js/index.js"></script>
     <script>
-    //    $('#fh').click(function(){
-    //     $(location).attr("href","login.html");
-    //    })
-       $('#mali').click(function(){
-        $('#mali').val('');
+       $('#mail').click(function(){
+        $('#mail').val('');
        });
        $('.xg').click(function(){
-        $('#mali').val('');
+        $('#mail').val('');
            $(this).css('display','none');
            $('.bc').css('display','block');
-       })
-       $('.bc').click(function(){
-           //第一个百度的
-        // var email=$("#mail").val();
-        // if($("#mail").val()=="")
-        // {
-        //     $('.error').css('display','block');
-        // }
-        // if(!email.match(/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/)){
-        // $('.error').css('display','block');
-        
-        // $("#mail").focus();
-        // }else{
-        //     $('.xg').css('display','block');
-        //     $('.bc').css('display','none');
-        // }
-        //第二个百度的
-        var mail = $('#mail').val();
-        if (mail != '') {//判断
-        var reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
-        if (!reg.test(mail)) {
-        $('.error').css('display','block');
-     }else{
-        $('.error').css('display','none');
-        $('.bc').css('display','none');
-        $('.xg').css('display','block');
-     }
-    }
-        // if($('#mali').val() !== ""){
-           
-        //     $('.bc').css('display','none');
-        //    $('.xg').css('display','block');
-        // //    console.log(1111);
-    //    }
-       })
-       
-    </script>
+       });
+       function emailCheck() {
+            let reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
+            let email = $("#mail").val();
+            if(!reg.test(email) || email==''){
+                return false;
+            }else{
+                return true;
+            }
+        }
+        $('.bc').click(function (){
+            if(emailCheck()){
+                $('.error').css('display','none');
+                $('.bc').css('display','none');
+                $('.xg').css('display','block');
+                // console.log(123)
+            }else{
+                $('.error').css('display','block');
+            }
+        });
+    //    function yxyz(){
+    //     var mail = $('#mail').val();
+    //     if (mail != '') {//判断
+    //     var reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
+    //     if (!reg.test(mail)) {
+    //     return false;
+    //  }else{
+    //     return true;
+    //  }
+    //  };
+    // $('.bc').click(function(){
+    //     if (yxyz()){
+    //     $('.error').css('display','block');
+    //  }else{
+    //     $('.error').css('display','none');
+    //     $('.bc').css('display','none');
+    //     $('.xg').css('display','block');
+    //  }
+    //  })
+     </script>
 </body>
 </html>
