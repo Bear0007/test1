@@ -61,13 +61,13 @@ img {
   display: block;
 }
 .box_1 a {
-  font-size: 0.531401rem;
+  font-size: .531401rem;
   color: #fff;
   position: absolute;
-  top: 0.483092rem;
+  top: .483092rem;
   left: 9.178744rem;
-  width: 0.531401rem;
-  height: 0.531401rem;
+  width: .531401rem;
+  height: .531401rem;
   overflow: hidden;
 }
 .box_1 div {
@@ -76,8 +76,8 @@ img {
   background-color: #fff;
   position: absolute;
   bottom: 0;
-  left: 0.386473rem;
-  font-size: 0.386473rem;
+  left: .386473rem;
+  font-size: .386473rem;
   text-align: center;
   line-height: 1.207729rem;
   color: #217DC5;
@@ -86,18 +86,18 @@ img {
   width: 10rem;
   height: 9.661836rem;
   background-color: #fff;
-  padding: 0 0.386473rem;
+  padding: 0 .386473rem;
   box-sizing: border-box;
 }
 .box_2 li {
   height: 1.2073rem;
   line-height: 1.2073rem;
-  border-bottom: 0.012077rem solid #ccc;
-  font-size: 0.362319rem;
+  border-bottom: .012077rem solid #ccc;
+  font-size: .362319rem;
   color: #919699;
 }
 .box_2 li p {
-  padding: 0 0.048309rem;
+  padding: 0 .048309rem ;
   box-sizing: border-box;
 }
 .box_2 li p span {
@@ -109,24 +109,24 @@ img {
   float: right;
   color: black;
   border: none;
-  font-size: 0.362319rem;
+  font-size: .362319rem;
   text-align: right;
 }
 .box_2 .error {
   float: right;
   color: red;
-  font-size: 0.31401rem;
+  font-size: .31401rem;
   display: none;
 }
 .box_2 .xg {
-  margin-top: 0.603865rem;
+  margin-top: .603865rem;
   color: #fff;
   text-align: center;
   background-color: #217DC5;
   display: block;
 }
 .box_2 .bc {
-  margin-top: 0.603865rem;
+  margin-top: .603865rem;
   color: #fff;
   text-align: center;
   background-color: #217DC5;

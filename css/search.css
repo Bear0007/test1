@@ -1,0 +1,76 @@
+.box {
+  width: 20.7rem;
+  position: relative;
+}
+.box .box_1 {
+  width: 20.7rem;
+  height: 2.5rem;
+  background-color: #227DC6;
+}
+.box .box_1 .left {
+  width: 7.475rem;
+  height: 2.5rem;
+  float: left;
+}
+.box .box_1 .left img {
+  width: 100%;
+  height: 100%;
+}
+.box .box_1 .right {
+  float: right;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 1.3rem;
+  color: #fff;
+  margin-right: .6rem;
+}
+.box .box_2 {
+  width: 20.7rem;
+  height: 2.5rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc ;
+  font-size: .75rem;
+  padding-left: .75rem;
+  line-height: 2.5rem;
+  color: #227DC6;
+  font-weight: bold;
+}
+.box .box_2 i {
+  width: .125rem;
+  height: .75rem;
+  background-color: #227DC6;
+  display: inline-block;
+  margin-right: .375rem;
+  vertical-align: middle;
+  margin-bottom: .15rem;
+}
+.box .cpxq {
+  width: 20.7rem;
+}
+.box .cpxq li {
+  height: 6.05rem;
+  margin-top: .3rem;
+  background-color: #fff;
+  padding: 0 0.75rem;
+  box-sizing: border-box;
+  font-size: .7rem;
+}
+.box .cpxq li h2 {
+  height: 2.05rem;
+  line-height: 2.05rem;
+  font-weight: normal;
+  border-bottom: 1px solid #ccc;
+  font-size: .75rem;
+  margin-bottom: .2rem;
+}
+.box .cpxq li div div {
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: .7rem;
+}
+.box .cpxq li div div p:nth-child(1) {
+  float: left;
+}
+.box .cpxq li div div p:nth-child(2) {
+  float: right;
+}

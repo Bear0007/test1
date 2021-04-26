@@ -1,52 +1,113 @@
+.px(@name, @px) {
+	@{name}: @px/82.8rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    outline-style: none;
+    -webkit-tap-highlight-color: transparent;
+    word-break: break-all;
+  }
+  html {
+    width: 100%;
+    font-size: 20px;
+    font-size: 10vw;
+    height: 100%;
+  }
+  body {
+    position: relative;
+    width: 10rem;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto!important;
+    font-weight: 400;
+    background: #EDF2F5;
+  }
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #333;
+  }
+  img {
+    display: block;
+    width: 100%;
+  }
+  .center {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
+  @font-face {
+    font-family: 'iconfont';
+    src: url('../font_2496187/iconfont.eot');
+    src: url('../font_2496187/iconfont.eot?#iefix') format('embedded-opentype'), url('../font_2496187/iconfont.woff2') format('woff2'), url('../font_2496187/iconfont.woff') format('woff'), url('../font_2496187/iconfont.ttf') format('truetype'), url('../font_2496187/iconfont.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 .box{
-    width: 20.7rem;
+    width: 10rem;
 }
 .box_1{
     position: relative;
+    display: block;
     a{
-        font-size: 1.1rem;
+        font-size:.531401rem;
         color: #fff;
         position: absolute;
-        top:1rem;left:19rem;
-       width: 1.1rem;
-       height: 1.1rem;
+        top:.483092rem;left:9.178744rem;
+        width:.531401rem;
+        height:.531401rem;
         overflow: hidden;
     }
     div{
-        width: 19.125rem;
-        height: 2.5rem;
+       width:9.23913rem;
+       height:1.207729rem;
         background-color: #fff;
         position: absolute;
-        bottom: 0;left: .8rem;
-        font-size: .8rem;
+        bottom: 0;left:.386473rem;
+        font-size:.386473rem;
         text-align: center;
-        line-height: 2.5rem;
+       line-height:1.207729rem;
         color:#217DC5;
     }
 }
 .box_2{
-    width: 20.7rem;
-    height: 20rem;
+   width:10rem;
+   height:9.661836rem;
     background-color: #fff;
-    padding: 0 .8rem;
+   padding: 0 .386473rem;
+   box-sizing: border-box;
     li{
-        height: 2.475rem;
-        line-height: 2.475rem;
-        border-bottom: .025rem solid #ccc;
-        font-size: .75rem;
+       height:1.2073rem;
+       line-height:1.2073rem;
+       border-bottom: .012077rem solid #ccc;
+        font-size: .362319rem;
         color:#919699;
         p{ 
-            padding:0 .1rem ;
+            padding:0 .048309rem ;
+            box-sizing: border-box;
             span{
                 float: right;
                 color: black;
             }
             input{
-                line-height: 2.4rem;
+                line-height: 1.15942rem;
                 float: right;
                 color: black;
                 border:none;
-                font-size: .75rem;
+                font-size: .362319rem;
                 text-align: right;
             }
         }
@@ -54,11 +115,11 @@
     .error{
         float: right;
         color: red;
-        font-size: .65rem;
+        font-size: .31401rem;
         display: none;
     }
     .xg{
-        margin-top: 1.25rem;
+        margin-top: .603865rem;
         color:#fff;
         text-align: center;
         background-color: #217DC5;
@@ -66,7 +127,7 @@
         
     }
     .bc{
-        margin-top: 1.25rem;
+        margin-top: .603865rem;
         color:#fff;
         text-align: center;
         background-color: #217DC5;

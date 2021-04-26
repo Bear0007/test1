@@ -54,20 +54,20 @@ img {
   -moz-osx-font-smoothing: grayscale;
 }
 .box {
-  width: 20.7rem;
-  height: 35rem;
+  width: 10rem;
+  height: 16.908213rem;
   position: relative;
 }
 .box .bg {
-  width: 20.7rem;
-  height: 16.4rem;
+  width: 10rem;
+  height: 7.922705rem;
 }
 .box .bg2 {
   background-color: #fff;
 }
 .box .bg2 ul {
-  width: 19.25rem;
-  height: 21.4rem;
+  width: 9.299517rem;
+  height: 10.338164rem;
   background-color: #fff;
   position: absolute;
   top: 0;
@@ -77,63 +77,63 @@ img {
   margin: auto;
 }
 .box .bg2 ul li {
-  height: 2.25rem;
-  line-height: 2.25rem;
-  width: 15.9rem;
-  margin: 0.5rem auto;
+  height: 1.086957rem;
+  line-height: 1.086957rem;
+  width: 7.681159rem;
+  margin: 0.241546rem auto;
   position: relative;
 }
 .box .bg2 ul li i {
   position: absolute;
-  left: 0.75rem;
-  top: 0.75rem;
+  left: 0.362319rem;
+  top: 0.362319rem;
   /* border: .75rem solid #888; */
   border-radius: 50%;
   background-color: #D0D0D0;
-  width: 1rem;
-  height: 1rem;
-  line-height: 1rem;
+  width: 0.483092rem;
+  height: 0.483092rem;
+  line-height: 0.483092rem;
   text-align: center;
   color: #fff;
-  font-size: 0.5rem;
+  font-size: 0.241546rem;
   vertical-align: middle;
 }
 .box .bg2 ul li input {
-  height: 2.25rem;
-  width: 15.9rem;
-  border: 1px solid #000;
+  height: 1.086957rem;
+  width: 7.681159rem;
+  border: 0.012077rem solid #000;
   box-sizing: border-box;
   margin: 0 auto;
-  padding-left: 2.25rem;
-  font-size: 0.75rem;
+  padding-left: 1.086957rem;
+  font-size: 0.362319rem;
   vertical-align: middle;
-  line-height: 2.25rem;
+  line-height: 1.086957rem;
 }
 .box .bg2 ul li input::-webkit-input-placeholder {
   color: #d0d0d0;
 }
 .box .bg2 ul li span {
   display: none;
-  font-size: 0.75rem;
-  line-height: 2.25rem;
+  font-size: 0.362319rem;
+  line-height: 1.086957rem;
   color: red;
   position: absolute;
-  top: 0.1rem;
-  right: 0.75rem;
+  top: 0.048309rem;
+  right: 0.362319rem;
   vertical-align: middle;
 }
 .box .bg2 ul #submit {
   padding: 0;
-  width: 15.9rem;
+  width: 7.681159rem;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 0.531401rem;
   font-weight: normal;
   background-color: #237EC4;
   color: #fff;
 }
 .box .box_1 {
-  width: 20.675rem;
-  height: 40rem;
+  width: 9.987923rem;
+  height: 19.323671rem;
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
@@ -142,20 +142,20 @@ img {
 }
 .box .box_1 .zccg {
   background-color: #fff;
-  width: 15.45rem;
-  height: 9rem;
+  width: 7.463768rem;
+  height: 4.347826rem;
   position: relative ;
-  margin: 10rem auto;
+  margin: 4.830918rem auto;
 }
 .box .box_1 .zccg a {
   position: absolute;
-  top: 0.5rem;
-  left: 14rem;
-  font-size: 0.75rem;
+  top: 0.241546rem;
+  left: 6.763285rem;
+  font-size: 0.362319rem;
   color: #237EC4;
 }
 .box .box_1 .zccg p {
-  font-size: 1.5rem;
+  font-size: 0.724638rem;
   text-align: center;
-  line-height: 9rem;
+  line-height: 4.347826rem;
 }
