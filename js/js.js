@@ -10,6 +10,17 @@ $("input").blur(function(){
         // $(this).css('color','black');
     } 
 });
+  //验证电话
+        function telCheck() {
+            let reg = /^\d{11}$/;
+            let tel = $("#tel").val();
+            if(!reg.test(tel) || tel==''){
+                return false;
+            }else{
+                return true;
+            }
+        }
+ //验证邮箱       
 function emailCheck() {
     let reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
     let email = $("#mail").val();
@@ -27,7 +38,10 @@ $("#submit").click(function(){
     }else if($("#name_id").val()==""){
       $("#name_id").next().css('display','block');
         return false;
-    }else if(!emailCheck()){
+    }else if(!telCheck()){
+        $("#tel").next().css('display','block');
+          return false;
+      } else if(!emailCheck()){
         $("#mail").next().css('display','block');
           return false;
       }else if($("#firm").val()==""){

@@ -55,19 +55,20 @@ img {
 }
 .box {
   width: 10rem;
+  overflow: hidden;
 }
 .box_1 {
   position: relative;
   display: block;
 }
 .box_1 a {
-  font-size: 0.531401rem;
+  font-size: 0.57971rem;
   color: #fff;
   position: absolute;
   top: 0.483092rem;
   left: 9.178744rem;
-  width: 0.531401rem;
-  height: 0.531401rem;
+  width: 0.57971rem;
+  height: 0.57971rem;
   overflow: hidden;
 }
 .box_1 div {
@@ -79,8 +80,10 @@ img {
   left: 0.386473rem;
   font-size: 0.386473rem;
   text-align: center;
+  font-weight: bold;
   line-height: 1.207729rem;
   color: #217DC5;
+  box-shadow: 0px 0 1rem 0 #cde2f2, 0.736715rem 0.181159rem 0.120773rem -2px #fff, -0.736715rem 0.181159rem 0.120773rem -2px #fff;
 }
 .box_2 {
   width: 10rem;
@@ -102,12 +105,12 @@ img {
 }
 .box_2 li p span {
   float: right;
-  color: black;
+  color: #555555;
 }
 .box_2 li p input {
   line-height: 1.15942rem;
   float: right;
-  color: black;
+  color: #555555;
   border: none;
   font-size: 0.362319rem;
   text-align: right;
@@ -124,6 +127,7 @@ img {
   text-align: center;
   background-color: #217DC5;
   display: block;
+  font-size: 0.386473rem;
 }
 .box_2 .bc {
   margin-top: 0.603865rem;
@@ -138,4 +142,5 @@ img {
   height: 100%;
   border: none;
   color: #fff;
+  font-size: 0.386473rem;
 }

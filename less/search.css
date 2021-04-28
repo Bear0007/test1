@@ -101,6 +101,7 @@ img {
 }
 .box .cpxq {
   width: 10rem;
+  color: #4C555A;
 }
 .box .cpxq li {
   height: 2.922705rem;
@@ -109,6 +110,8 @@ img {
   padding: 0 0.362319rem;
   box-sizing: border-box;
   font-size: 0.338164rem;
+  border-bottom: 0.012077rem solid #E7E7E7;
+  border-top: 0.012077rem solid #E7E7E7;
 }
 .box .cpxq li h2 {
   height: 0.990338rem;
@@ -116,7 +119,7 @@ img {
   font-weight: normal;
   border-bottom: 0.012077rem solid #ccc;
   font-size: 0.362319rem;
-  margin-bottom: 0.096618rem;
+  margin-bottom: 0.14rem;
 }
 .box .cpxq li div div {
   height: 0.724638rem;

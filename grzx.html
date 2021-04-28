@@ -11,31 +11,32 @@
     <div class="box_1">
         <img src="img/background3.jpg" alt="">
         <a href="login.html" id="fh" class="iconfont">&#xe600;</a>
-        <div class="iconfont">
-            &#xe605; 个人中心
+        <div class="iconfont ">
+            &#xe605; 个人信息
         </div>
     </div>
     <ul class="box_2">
         <form action="">
-        <li><p>姓名：<span>Jackson</span></p></li>
-        <li><p>员工号：<span>13131322290</span></p></li>
-        <li><p>公司：<span>bule-dot</span></p></li>
-        <li><p>邮箱：<input type="text" value="171744770@qq.com" id="mail"></p>
+        <li><p>姓名：<span>尉迟琳嘉</span></p></li>
+        <li><p>员工号：<span>FL666666</span></p></li>
+        <li><p>公司：<span>弗兰德</span></p></li>
+        <li><p>手机：<span>13651133888</span></p></li>
+        <li><p>邮箱：<input type="text" value="seehao@flender.com.cn" id="mail"></p>
         </li>
         <span class="error">邮箱格式不正确</span>
         <li class="xg">修改</li>
-        <li class="bc"><input type="button" value="提交" id="submit"></li>
+        <li class="bc"><input type="button" value="保存" id="submit"></li>
     </form>  
     </ul>
 </div>
    <script src="js/jquery.min.js"></script>
    <script src="js/index.js"></script>
     <script>
-       $('#mail').click(function(){
-        $('#mail').val('');
-       });
+    //    $('#mail').click(function(){
+    //     $('#mail').val('');
+    //    });
        $('.xg').click(function(){
-        $('#mail').val('');
+        $('#mail').focus();
            $(this).css('display','none');
            $('.bc').css('display','block');
        });
@@ -53,9 +54,11 @@
                 $('.error').css('display','none');
                 $('.bc').css('display','none');
                 $('.xg').css('display','block');
+                $('#mail').parent().css('color', '');
                 // console.log(123)
             }else{
                 $('.error').css('display','block');
+                $('#mail').parent().css('color', '#4C555A');
             }
         });
     //    function yxyz(){

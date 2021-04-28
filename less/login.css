@@ -63,11 +63,13 @@ img {
   height: 9.335749rem;
 }
 .box_1 a {
-  width: 0.531401rem;
-  height: 0.531401rem;
-  background-color: #ccc;
+  box-sizing: border-box;
+  padding: 0 0 0.054155rem 0.01rem;
+  width: 0.57971rem;
+  height: 0.57971rem;
+  background-color: #fff;
   border-radius: 50%;
-  line-height: 0.531401rem;
+  line-height: 0.603865rem;
   text-align: center;
   font-size: 0.386473rem;
   color: #217DC5;
@@ -94,6 +96,7 @@ img {
   left: 0;
   margin: auto;
   padding-top: 0.676329rem;
+  margin-top: 7.125604rem;
 }
 .box_2 p {
   text-align: center;
@@ -110,6 +113,10 @@ img {
   display: block;
   margin: 0.628019rem auto 0.483092rem auto;
   border: 0.012077rem solid #ccc;
+  padding: 0 0.676329rem;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 0.386473rem;
 }
 .box_2 button {
   width: 7.681159rem;
@@ -119,6 +126,7 @@ img {
   background-color: #217DC5;
   color: #fff;
   font-size: 0.410628rem;
+  border: none;
 }
 .box_3 {
   width: 10rem;
@@ -140,8 +148,8 @@ img {
   bottom: 0;
   left: 0;
   margin: auto;
-  top: -4.830918rem;
   border: 0.012077rem solid #ccc;
+  margin-top: 5.676329rem;
 }
 .box_3 .alert a {
   position: absolute;

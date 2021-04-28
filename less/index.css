@@ -75,6 +75,7 @@ img {
   bottom: 0;
   left: 0;
   margin: auto;
+  margin-top: 5.434783rem;
 }
 .box .bg2 ul li {
   height: 1.086957rem;
@@ -95,13 +96,13 @@ img {
   line-height: 0.483092rem;
   text-align: center;
   color: #fff;
-  font-size: 0.241546rem;
+  font-size: 0.1rem;
   vertical-align: middle;
 }
 .box .bg2 ul li input {
   height: 1.086957rem;
   width: 7.681159rem;
-  border: 0.012077rem solid #000;
+  border: 0.012077rem solid #DBDBDB;
   box-sizing: border-box;
   margin: 0 auto;
   padding-left: 1.086957rem;
@@ -137,6 +138,7 @@ img {
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
+  overflow: hidden;
   display: none;
   z-index: 1;
 }
@@ -153,9 +155,10 @@ img {
   left: 6.763285rem;
   font-size: 0.362319rem;
   color: #237EC4;
+  font-weight: bold;
 }
 .box .box_1 .zccg p {
-  font-size: 0.724638rem;
+  font-size: 0.386473rem;
   text-align: center;
   line-height: 4.347826rem;
 }
